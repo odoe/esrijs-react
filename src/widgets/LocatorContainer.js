@@ -1,3 +1,4 @@
+/** @jsx React.DOM */
 define([
   'react',
   'dojo/query',
@@ -22,7 +23,7 @@ define([
       return;
     }
 
-    React.renderComponent(new Locator({ map:map }), createContainer());
+    React.render(<Locator map={map} />, createContainer());
   };
 
   return {
