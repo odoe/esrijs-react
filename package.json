@@ -9,6 +9,7 @@
   "author": "",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "gulp-react": "~2.0.0"
+    "gulp-react": "~2.0.0",
+    "gulp": "~3.8.10"
   }
 }
