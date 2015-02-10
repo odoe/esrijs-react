@@ -12,6 +12,11 @@ define([
 ) {
 
   var createContainer = function() {
+    var c = query('.locator-container');
+    if (c.length) {
+      return c.shift();
+    }
+
     var container = domConstruct.create('div', {
       className: 'locator-container'
     }, dom.byId('map_root'), 'first');
@@ -19,10 +24,6 @@ define([
   };
 
   var addContainer = function(map) {
-    if (query('locator-container').length) {
-      return;
-    }
-
     React.render(<Locator map={map} />, createContainer());
   };
 
