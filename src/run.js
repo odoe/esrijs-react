@@ -9,14 +9,14 @@
     parseOnLoad: true,
     packages: [{
       name: 'widgets',
-      location: locationPath + 'dist/widgets'
+      location: locationPath + '/dist/widgets'
     }, {
       name: 'react',
-      location: locationPath + 'bower_components/react/',
+      location: locationPath + '/bower_components/react/',
       main: 'react'
     }, {
       name: 'app',
-      location: locationPath + 'dist',
+      location: locationPath + '/dist',
       main: 'main'
     }]
   }, ['app']);
