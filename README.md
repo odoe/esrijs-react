@@ -8,4 +8,4 @@ npm install
 bower install
 ````
 
-Blog post can be found on [odoenet](http://odoe.net/blog/esrijs-with-reactjs)
+Blog post can be found on [odoenet](http://odoe.net/blog/esrijs-reactjs/)
